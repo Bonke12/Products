@@ -92,9 +92,9 @@ function Cards() {
             <h6 className="price"></h6>
             <p className="card-text">R466.00 x 30 months</p>
           </div>
-          <div className="card-footer">
+          {/* <div className="card-footer"> */}
             {/* <small className="text-muted">Last updated 3 mins ago</small> */}
-          </div>
+          
         </div>
         <div className="card">
           <img className="card-img-top" src="https://www.bradlows.co.za/media/catalog/product/cache/2bc2f148dc23cafaa22d929dc6e18cfe/g/h/ghfo_002_image_hr_776b.jpg" />
@@ -104,9 +104,8 @@ function Cards() {
             <h6 className="price-title"></h6>
             <p className="card-text">R115.00 x 24 months</p>
           </div>
-          <div className="card-footer">
+          {/* <div className="card-footer"> */}
             {/* <small className="text-muted">Last updated 3 mins ago</small> */}
-          </div>
         </div>
         <div className="card">
           <img className="card-img-top" src="https://www.bradlows.co.za/media/catalog/product/cache/2bc2f148dc23cafaa22d929dc6e18cfe/8/s/8sdecoderwithsatellite_1ee5.jpg" alt="Card image cap" />
@@ -116,12 +115,12 @@ function Cards() {
             <h6 className="price-title"></h6>
             <p className="card-text">R112.00 x 24 months</p>
           </div>
-          <div className="card-footer">
+          {/* <div className="card-footer"> */}
             {/* <small className="text-muted">Last updated 3 mins ago</small> */}
           </div>
         </div>
       </div>
-    </div>
+    
 
   )
 }
