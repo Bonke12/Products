@@ -5,6 +5,7 @@ import Slide from './Components/Slide'
 import Cards from './Components/Cards'
 import About from './Pages/About'
 
+
 function App() {
   return (
     <div>
