@@ -15,4 +15,5 @@ h1,h2,h3{
     display: flex;
     padding: 1rem;
     -ms-flex-direction: column;
+    flex-direction: column;
 }
