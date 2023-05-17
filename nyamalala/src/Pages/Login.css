@@ -31,7 +31,7 @@ text-transform:uppercase;
 .mybtn{
     border-radius:50px;
     }
-    .login-or {
+.login-or {
         position: relative;
         color: #aaa;
         margin-top: 10px;
@@ -39,3 +39,6 @@ text-transform:uppercase;
         padding-top: 10px;
         padding-bottom: 10px;
         }
+.span-or {
+    
+}
