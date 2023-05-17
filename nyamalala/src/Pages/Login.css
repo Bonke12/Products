@@ -42,4 +42,5 @@ text-transform:uppercase;
 .span-or {
     display: block;
     position: absolute;
+    left: 50%;
 }
