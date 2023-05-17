@@ -6,6 +6,7 @@ import './index.css'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Contacts from './Pages/Contacts'
+import Login from '../src/Components/Login'
 
 import {
   createBrowserRouter,
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/contacts",
     element: <Contacts/>,
+  },
+  {
+    path: "/login",
+    element: <Login/>,
   },
 ]);
 

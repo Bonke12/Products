@@ -1,7 +1,10 @@
 import React from 'react'
-
+import Header from'../Components/Header'
+import '../Components/Login_Style.css'
 const Login = () => {
     return (
+        <div>
+<Header/>
         <div className="container">
             <div className="row">
                 <div className="col-md-5 mx-auto">
@@ -10,6 +13,7 @@ const Login = () => {
                             <div className="logo mb-3">
                                 <div className="col-md-12 text-center">
                                     <h1>Login</h1>
+                                   
                                 </div>
                             </div>
                             <form action="" method="post" name="login">
@@ -83,6 +87,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
