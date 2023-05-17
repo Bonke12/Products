@@ -60,4 +60,5 @@ text-transform:uppercase;
         height:40px;
         text-align:center;
         outline:none;
+        border: 1px solid lightgrey;
     }
