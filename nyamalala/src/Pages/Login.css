@@ -13,4 +13,5 @@ h1,h2,h3{
     position: relative;
     display: -ms-flexbox;
     display: flex;
+    padding: 1rem;
 }
