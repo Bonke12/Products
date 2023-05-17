@@ -40,5 +40,6 @@ text-transform:uppercase;
         padding-bottom: 10px;
         }
 .span-or {
-    
+    display: block;
+    position: absolute;
 }
