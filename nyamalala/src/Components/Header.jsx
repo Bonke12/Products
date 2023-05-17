@@ -17,6 +17,7 @@ function Header() {
             <Nav.Link href="#">About</Nav.Link>
             <Nav.Link href="#">Login</Nav.Link>
           </Nav>
+          
           <br></br>
           <i class="bi bi-cart3"></i>
         </Navbar.Collapse>
