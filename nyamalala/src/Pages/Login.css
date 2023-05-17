@@ -47,4 +47,10 @@ text-transform:uppercase;
     margin-left: -25px;
     background-color: #fff;
     width: 50px;
+    text-align: center;
 }
+.hr-or {
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    }
