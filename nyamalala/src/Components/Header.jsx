@@ -9,7 +9,7 @@ function Header() {
     <>
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#"><h3>Giant African Snail</h3></Navbar.Brand><img className="card-img-top" src="#" alt="Card image cap"/>
+        <Navbar.Brand href="#"><h3>Giant African Snail</h3></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
