@@ -16,7 +16,7 @@ function Header() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="contact">Contact</Nav.Link>
-            <Nav.Link href="contact">Online </Nav.Link>
+            {/* <Nav.Link href="contact">Online </Nav.Link> */}
             <Nav.Link href="login">Sign In</Nav.Link>
           </Nav>
           
