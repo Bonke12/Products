@@ -27,7 +27,7 @@ const Login = () => {
                                         <input type="password" name="password" id="password" className="form-control" aria-describedby="emailHelp" placeholder="Enter Password" />
                                     </div>
                                     <div className="form-group">
-                                        <p className="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
+                                        <p className="text-center">By signing up you accept our <a href="https://app.termly.io/dashboard/website/8d3b5a3b-f66f-48db-87cf-205d1596179e">Terms Of Use</a></p>
                                     </div>
                                     <div className="col-md-12 text-center ">
                                         <button type="submit" className=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
@@ -40,7 +40,7 @@ const Login = () => {
                                     </div>
                                     <div className="col-md-12 mb-3">
                                         <p className="text-center">
-                                            <a href="javascript:void();" className="google btn mybtn"><i className="fa fa-google-plus">
+                                            <a href="https://www.google.com/" className="google btn mybtn"><i className="fa fa-google-plus">
                                             </i> Signup using Google
                                             </a>
                                         </p>
