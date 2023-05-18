@@ -18,8 +18,8 @@ function Header() {
             <Nav.Link href="contact">Contacts</Nav.Link>
             {/* <Nav.Link href="contact">Online </Nav.Link> */}
             <Nav.Link href="login">Sign In</Nav.Link>
+            <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="#">Download</a>
           </Nav>
-          
           <br></br>
           <i class="bi bi-cart3"></i>
         </Navbar.Collapse>
