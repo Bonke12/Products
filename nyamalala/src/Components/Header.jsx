@@ -17,7 +17,7 @@ function Header() {
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="contact">Contact</Nav.Link>
             <Nav.Link href="contact">Online </Nav.Link>
-            <Nav.Link href="login">Login</Nav.Link>
+            <Nav.Link href="login">Sign In</Nav.Link>
           </Nav>
           
           <br></br>
