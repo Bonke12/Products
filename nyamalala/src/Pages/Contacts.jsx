@@ -1,42 +1,38 @@
 import React from 'react'
 import Header from '../Components/Header'
-import'../Pages/Contacts_Style.css'
+
 
 const Contacts = () => {
   return (
     <div>
-      <Header/>
+      <Header />
 
-      <h2>Responsive Contact Section</h2>
-      <p>Resize the browser window to see the effect.</p>
+      <form class="text-center border border-light p-5" action="#!" />
 
-      <div class="container">
-        <div style="text-align:center">
-          <h2>Contact Us</h2>
-          <p>Swing by for a cup of coffee, or leave us a message:</p>
-        </div>
-        <div class="row">
-          <div class="column">
-            <img src="/w3images/map.jpg" style="width:100%" />
+      <p class="h4 mb-4">Contact us</p>
+      <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail"/>
+
+          <label>Subject</label>
+          <select class="browser-default custom-select mb-4">
+            <option value="" disabled>Choose option</option>
+            <option value="1" selected>Feedback</option>
+            <option value="2">Report a bug</option>
+            <option value="3">Feature request</option>
+            <option value="4">Feature request</option>
+          </select>
+
+          <div class="form-group">
+            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
           </div>
-          <div class="column">
-            <form action="/action_page.php" />
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name.." />
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-            <input type="submit" value="Submit" />
+
+          <div class="custom-control custom-checkbox mb-4">
+            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" />
+            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
           </div>
-        </div>
-      </div>
+          <button class="btn btn-info btn-block" type="submit">Send</button>
+      </input>
+      <h2>Contacts</h2>
 
     </div>
 
