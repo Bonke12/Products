@@ -13,7 +13,7 @@ const Login = () => {
                             <div className="myform form ">
                                 <div className="text-bg-info p-3">
                                     <div className="col-md-12 text-center">
-                                        <h1>Login</h1>
+                                        <h1>Welcome</h1>
 
                                     </div>
                                 </div>
